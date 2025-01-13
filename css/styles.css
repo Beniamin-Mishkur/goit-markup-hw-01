@@ -40,6 +40,9 @@ a {
   color: #404bbf;
 }
 
+.contacts {
+  font-style: normal;
+}
 .contacts-link {
   font-weight: 400;
   font-size: 16px;
@@ -48,7 +51,8 @@ a {
   color: #434455;
 }
 
-.contacts-link:hover {
+.contacts-link:hover,
+.contacts-link:focus {
   color: #404bbf;
 }
 
@@ -59,7 +63,7 @@ a {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -80,7 +84,8 @@ height: 56px; */
   cursor: pointer;
 }
 
-.hero-btn:hover {
+.hero-btn:hover,
+.hero-btn:focus {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #404bbf;
 }
@@ -108,14 +113,15 @@ height: 56px; */
 .our-team {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
-.team-members-list {
-  background-color: #fff;
+.team-member {
+  background-color: #ffffff;
 }
 
 /* .team-member-photo {
@@ -143,9 +149,10 @@ height: 56px; */
 .our-portfolio {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
@@ -171,7 +178,7 @@ height: 56px; */
 .footer-logo {
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -187,9 +194,9 @@ height: 56px; */
 }
 
 .footer-text {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #f4f4fd;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
